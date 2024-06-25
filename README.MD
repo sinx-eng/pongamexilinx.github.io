@@ -6,11 +6,20 @@ The files included in this design directory contain proprietary, confidential in
 
 # Pong Project
 
+![Pong Top Level Schematic](toplevelschematic.png)
+
 ## Overview
 Pong is a project featuring a mixed schematic, VHDL, and Verilog implementation designed for the Xilinx\Digilent Spartan-3 demo board. It utilizes PS2 and VGA monitor connections to create a classic pong game.
 
+![VGA monitor](vgamonitor.png)
+
+![PS2 keyboard](olderkeyboard.png)
+
+
 ### Design Type
 - **ISE**: Implemented on chip 3s500e FG320-4
+
+![Project Files at ISE Web Pack](projectfiles.png)
 
 ### Controls (Inputs)
 - `clk_ic4`: 50 MHz clock input from the on-board oscillator
