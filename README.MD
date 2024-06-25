@@ -13,6 +13,8 @@ Pong is a project featuring a mixed schematic, VHDL, and Verilog implementation 
 
 ![VGA monitor](vgamonitor.png)
 
+![Nexys 2](nexys2.png)
+
 ![PS2 keyboard](olderkeyboard.png)
 
 
