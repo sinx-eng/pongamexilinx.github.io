@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pong Game | Nexys 2 XILINX FPGA Board</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>Pong Game</h1>
+            <p>A classic arcade game implemented on Nexys 2 XILINX FPGA board</p>
+            <a href="another-page.html" class="another-page-button deep-blue">Go to Another Page</a>
+            <button onclick="startGame()" class="play-button deep-blue">Play Now</button>
+        </div>
+    </header>
+
+    <div class="game-container">
+        <div class="score">
+            <span id="player1-score">0</span> - <span id="player2-score">0</span>
+        </div>
+        <div class="box">
+            <div class="paddle paddle-left"></div>
+            <div class="paddle paddle-right"></div>
+            <div class="ball"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
